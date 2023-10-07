@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="587FEBF1-012C-65A9-C197-1E480F6362B3" name="Employee">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>E240E1BF-41DC-2824-602A-DB97A4597F08</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="first_name" id="E51FF5B9-4E21-1E1C-ABCD-DC7347B1A187">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>E1041DAD-FF5D-63DB-E8EA-058D9C57FFFA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="last_name" id="8DB483FA-74BF-244B-46C4-8994BE781407">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>DB38E8EA-AC61-726C-CC54-ECBA538F90FD</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="age" id="51689BEA-4855-698C-3A15-951989DDD974">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>E3B460D2-08EC-11C9-28D0-F7369EE6722B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_no" id="1E40CCA3-E23D-AD8A-94C7-75ED0A53C9D0">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>94B46CC5-93CF-7D1E-2C6A-7D56F0BF403A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A75C8643-AF0A-F7F1-4186-F24A44B9C7C9">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>CEE4683B-33FB-0E58-5008-77F0C3398239</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="date_of_birth" id="1AFBC6F8-99A1-E9C3-25DF-68A294EDE2EB">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>3FE77754-1B5D-F62F-741C-EE9A30EF6379</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="username" id="E9F5885E-EE2E-0D41-6736-D07364DFDD73">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>8B935CBF-D281-6BB2-BB19-46E91769E114</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="CCF3DDB5-0934-C0E9-97C2-69BB36AFC7C4">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>C11976A5-E2FF-0EFF-FD43-839508E4F228</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Admin_username" id="371CF78C-CFEA-899F-3509-8391C6C84E61">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>7EEB9779-D1C0-E52B-0FD7-9EE39AA7B222</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="147FAB15-9F8C-72CF-F9BE-267CFE15110C" referredColumn="4FD04A64-D7BF-9664-A641-C06BAFDC25FA"/>
+</associations>
+</Column>
+<Column name="gender" id="1FCBAA3E-501A-EC60-DEF3-1C03191A0E37">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>2304EFBE-AD24-FD9C-394C-5ED7BEB73492</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F79E28C9-68A3-1004-C2D8-4297537F9C46" name="Employee_PK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>92D1269E-4F5E-F719-CA0A-2D8BB5ABCD0C</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E9F5885E-EE2E-0D41-6736-D07364DFDD73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FA245EF3-8199-0EA6-7000-D7423CBD54C0" name="Employee_Admin_FK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>6284C973-6368-5A60-2A64-245764749E53</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="371CF78C-CFEA-899F-3509-8391C6C84E61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="can file" directorySegmentName="seg_0" id="A3E1CBBB-36C4-3F98-E646-74BD1FCFFC58">
+<createdBy>hamza</createdBy>
+<createdTime>2021-05-26 12:23:47 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="BD66DD48-3FB3-8215-C631-5BBC033604D7" value="true"/>
+</engineerTo>
+<sourcePk>92D1269E-4F5E-F719-CA0A-2D8BB5ABCD0C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E240E1BF-41DC-2824-602A-DB97A4597F08</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DFE2CA2F-A983-2860-5752-10CDA0A600B5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

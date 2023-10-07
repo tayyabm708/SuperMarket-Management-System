@@ -1,0 +1,297 @@
+Admin:
+{
+  "FIRST_NAME": "Muhammad",
+  "LAST_NAME": "Tayyab",
+  "AGE": 20,
+  "PHONE_NO": "+92 3487726606",
+  "EMAIL": "tayyabm708@gmail.com",
+  "DATE_OF_BIRTH": "23-Dec-03",
+  "USERNAME": "tayyabm708",
+  "PASSWORD": "1234",
+  "GENDER": "Male"
+}
+
+Customer:
+{
+  "FIRST_NAME": "Moiz",
+  "LAST_NAME": "Khan",
+  "AGE": 20,
+  "PHONE_NO": "+92 3339874875",
+  "EMAIL": "moiz@gmail.com",
+  "DATE_OF_BIRTH": "10-FEB-97",
+  "USERNAME": "Moiz86",
+  "PASSWORD": "1234",
+  "GENDER": "Male"
+}
+
+Customer_Query:
+{
+  "MSG": "yea yea uh whatever",
+  "QUERY_ID": 1,
+  "CUSTOMER_USERNAME": "Moiz86"
+}
+
+
+Employee:
+[{
+  "FIRST_NAME": "Ifra",
+  "LAST_NAME": "Batool",
+  "AGE": 20,
+  "PHONE_NO": "+92 3239874225",
+  "EMAIL": "ifra@gmail.com",
+  "DATE_OF_BIRTH": "20-NOV-99",
+  "USERNAME": "Batool86",
+  "PASSWORD": "1234",
+  "ADMIN_USERNAME": null,
+  "GENDER": "Female"
+},
+{
+  "FIRST_NAME": "Ayyan",
+  "LAST_NAME": "Javed",
+  "AGE": 20,
+  "PHONE_NO": "+92 3239874225",
+  "EMAIL": "ayyan@gmail.com",
+  "DATE_OF_BIRTH": "20-NOV-99",
+  "USERNAME": "Ayyab86",
+  "PASSWORD": "1234",
+  "ADMIN_USERNAME": null,
+  "GENDER": "Female"
+}
+]
+
+Employee_Query:
+[
+  {
+    "MSG": "my complain is that you dont smile :)",
+    "QUERY_ID": 1,
+    "EMPLOYEE_USERNAME": "Batool86"
+  },
+  {
+    "MSG": "also dont be sad :>",
+    "QUERY_ID": 2,
+    "EMPLOYEE_USERNAME": "Batool86"
+  }
+]
+
+
+
+Product:
+[
+   { "PRODUCT_ID": "Oo" },
+   { "PRODUCT_ID": "aa" },
+   { "PRODUCT_ID": "bb" },
+   { "PRODUCT_ID": "cap" },
+   { "PRODUCT_ID": "cc" },
+   { "PRODUCT_ID": "choco" },
+   { "PRODUCT_ID": "cook" },
+   { "PRODUCT_ID": "dor" },
+   { "PRODUCT_ID": "ee" },
+   { "PRODUCT_ID": "jj" },
+   { "PRODUCT_ID": "kala" },
+   { "PRODUCT_ID": "let" },
+   { "PRODUCT_ID": "ll" },
+   { "PRODUCT_ID": "mm" },
+   { "PRODUCT_ID": "pp" },
+   { "PRODUCT_ID": "rr" },
+   { "PRODUCT_ID": "ss" },
+   { "PRODUCT_ID": "ww" }
+]
+
+Snack:
+[
+  {
+    "PRODUCT_ID": "choco",
+    "NAME": "Dairy Milk",
+    "PRICE": 20,
+    "CATEGORY": "Snacks",
+    "STOCK": 59,
+    "EXPIRY": "03-OCT-23",
+    "IMG": "Images\\dairymilk.png"
+  },
+  {
+    "PRODUCT_ID": "dor",
+    "NAME": "Doritos",
+    "PRICE": 40,
+    "CATEGORY": "Snacks",
+    "STOCK": 160,
+    "EXPIRY": "07-DEC-25",
+    "IMG": "Images\\doritos.png"
+  },
+  {
+    "PRODUCT_ID": "ll",
+    "NAME": "Lays",
+    "PRICE": 30,
+    "CATEGORY": "Snacks",
+    "STOCK": 197,
+    "EXPIRY": "23-MAR-23",
+    "IMG": "Images\\lays.png"
+  },
+  {
+    "PRODUCT_ID": "cc",
+    "NAME": "Cocomo",
+    "PRICE": 10,
+    "CATEGORY": "Snacks",
+    "STOCK": 83,
+    "EXPIRY": "01-JAN-23",
+    "IMG": "Images\\Cocomo.png"
+  },
+  {
+    "PRODUCT_ID": "bb",
+    "NAME": "Bunties",
+    "PRICE": 6,
+    "CATEGORY": "Snacks",
+    "STOCK": 68,
+    "EXPIRY": "02-APR-21",
+    "IMG": "Images\\bunty.png"
+  },
+  {
+    "PRODUCT_ID": "pp",
+    "NAME": "Pringles",
+    "PRICE": 130,
+    "CATEGORY": "Snacks",
+    "STOCK": 59,
+    "EXPIRY": "16-MAY-25",
+    "IMG": "Images\\pringles.png"
+  }
+]
+
+Beverage:
+[
+  {
+    "PRODUCT_ID": "kala",
+    "NAME": "Coke Can",
+    "PRICE": 35,
+    "CATEGORY": "Beverages",
+    "STOCK": 58,
+    "EXPIRY": "03-OCT-23",
+    "IMG": "Images\\Coke.png"
+  },
+  {
+    "PRODUCT_ID": "ww",
+    "NAME": "Water 250mg",
+    "PRICE": 25,
+    "CATEGORY": "Beverages",
+    "STOCK": 99,
+    "EXPIRY": "07-DEC-25",
+    "IMG": "Images\\water.png"
+  },
+  {
+    "PRODUCT_ID": "jj",
+    "NAME": "Nestle Juice",
+    "PRICE": 90,
+    "CATEGORY": "Beverages",
+    "STOCK": 80,
+    "EXPIRY": "23-MAR-23",
+    "IMG": "Images\\juice.png"
+  },
+  {
+    "PRODUCT_ID": "ss",
+    "NAME": "Sprite 500mg",
+    "PRICE": 50,
+    "CATEGORY": "Beverages",
+    "STOCK": 30,
+    "EXPIRY": "16-MAY-25",
+    "IMG": "Images\\sprite.png"
+  }
+]
+
+Fruit:
+[
+  {
+    "PRODUCT_ID": "aa",
+    "NAME": "Apple",
+    "PRICE": 40,
+    "CATEGORY": "Fruits & Vegetables",
+    "STOCK": 51,
+    "EXPIRY": "03-AUG-21",
+    "IMG": "Images\\apple.png"
+  },
+  {
+    "PRODUCT_ID": "cap",
+    "NAME": "Capsicum",
+    "PRICE": 15,
+    "CATEGORY": "Fruits & Vegetables",
+    "STOCK": 120,
+    "EXPIRY": "03-SEP-21",
+    "IMG": "Images\\capsi.png"
+  },
+  {
+    "PRODUCT_ID": "let",
+    "NAME": "Lettuce",
+    "PRICE": 20,
+    "CATEGORY": "Fruits & Vegetables",
+    "STOCK": 79,
+    "EXPIRY": "09-AUG-24",
+    "IMG": "Images\\lettuce.png"
+  },
+  {
+    "PRODUCT_ID": "mm",
+    "NAME": "Mango",
+    "PRICE": 50,
+    "CATEGORY": "Fruits & Vegetables",
+    "STOCK": 51,
+    "EXPIRY": "03-OCT-23",
+    "IMG": "Images\\mango.png"
+  },
+  {
+    "PRODUCT_ID": "Oo",
+    "NAME": "Orange",
+    "PRICE": 25,
+    "CATEGORY": "Fruits & Vegetables",
+    "STOCK": 40,
+    "EXPIRY": "06-DEC-22",
+    "IMG": "Images\\orange.png"
+  }
+]
+
+Bakery_Item:
+[
+  {
+    "PRODUCT_ID": "ee",
+    "NAME": "One Dozen Eggs",
+    "PRICE": 180,
+    "CATEGORY": "Bakery Items",
+    "STOCK": 20,
+    "EXPIRY": "03-OCT-23",
+    "IMG": "Images\\egg.png"
+  },
+  {
+    "PRODUCT_ID": "rr",
+    "NAME": "Rusk",
+    "PRICE": 70,
+    "CATEGORY": "Bakery Items",
+    "STOCK": 40,
+    "EXPIRY": "07-DEC-25",
+    "IMG": "Images\\rusk.png"
+  },
+  {
+    "PRODUCT_ID": "cook",
+    "NAME": "Cookie",
+    "PRICE": 20,
+    "CATEGORY": "Bakery Items",
+    "STOCK": 80,
+    "EXPIRY": "23-MAR-23",
+    "IMG": "Images\\Cookie.png"
+  }
+]
+
+Orders:
+[
+  {
+    "ITEMS": "Pringles, Dairy Milk, Cocomo, Lays",
+    "TOTAL": 290,
+    "STATUS": "0",
+    "ORDER_ID": 2,
+    "CUSTOMER_USERNAME": "customer",
+    "EMPLOYEE_USERNAME": null
+  },
+  {
+    "ITEMS": "Apple, Mango, Lettuce",
+    "TOTAL": 300,
+    "STATUS": "1",
+    "ORDER_ID": 3,
+    "CUSTOMER_USERNAME": "customer",
+    "EMPLOYEE_USERNAME": null
+  }
+]
+

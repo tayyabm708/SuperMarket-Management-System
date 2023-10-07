@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8438124D-8AA3-2A6C-D2B7-440EAFF2BCDE" name="Orders">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>6DEC43B9-65F5-9FC6-4B97-B11D570C45ED</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="items" id="86F1A4EA-AEBB-56E0-0050-A044D19DC4ED">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>EAED09CF-F3FC-4CED-0BAC-4397CA8974DA</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="BCA6DBEB-6C34-F21F-E336-52F9C7ADD481">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>055A65AF-A6E4-77B9-106D-ECFCE019382A</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="A2D962F3-E8A2-011A-B887-459509AC79EF">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>ECAF98E7-0A17-D0F9-9ED4-351B94212F40</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="order_id" id="D32D01BE-940D-0404-1224-924491A25437">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>B109BC98-4304-8E93-1D61-44C02C57B5DF</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Customer_username" id="1A29F564-302D-4160-62C7-1D51CB4A934D">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>67C4178D-3BFE-E012-15D4-2822215CDC05</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F84FC423-3990-0475-F798-9D0F5D52FC59" referredColumn="31836785-C969-48B7-FD01-EF1E78AA2C08"/>
+</associations>
+</Column>
+<Column name="Employee_username" id="59BC45EE-9321-36D9-9A82-9028FB4ABF43">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>17DAB20C-07F0-78F2-9965-F3554085D31F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AAAE5F32-C3B8-735F-B7C0-97708CEA3FEB" referredColumn="E9F5885E-EE2E-0D41-6736-D07364DFDD73"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="044D3F8A-70BD-58D4-1AA2-D8D0FD33D5A5" name="Orders_PK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>AF9AFEAF-E7D6-A4D5-3E93-0DF56DF9611B</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D32D01BE-940D-0404-1224-924491A25437"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FCCD4E96-A86B-180B-64AC-98402BAC3197" name="Orders_Employee_FK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>0A36D872-B9A0-32FE-4B21-F4DFFB0E653F</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59BC45EE-9321-36D9-9A82-9028FB4ABF43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A61900F-2346-5D53-05E9-ED58065FC62E" name="Orders_Customer_FK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>CA83DE65-86B1-A36C-F5B2-8AE08BBEFDC2</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1A29F564-302D-4160-62C7-1D51CB4A934D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

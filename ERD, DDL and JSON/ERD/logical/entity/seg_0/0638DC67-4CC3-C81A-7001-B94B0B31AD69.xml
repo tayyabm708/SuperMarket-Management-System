@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0638DC67-4CC3-C81A-7001-B94B0B31AD69" name="Beverage">
+<createdBy>hamza</createdBy>
+<createdTime>2021-05-26 11:40:17 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="BD66DD48-3FB3-8215-C631-5BBC033604D7" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>88880F81-8F86-3C60-B86B-9376B50413E7</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="name" id="0D078175-1CBB-947B-2EF6-63858AC85ED3">
+<createdBy>hamza</createdBy>
+<createdTime>2021-05-26 11:49:11 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="BD66DD48-3FB3-8215-C631-5BBC033604D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="price" id="2FF6169F-4D1A-AC75-90A1-7E68E5683B75">
+<createdBy>hamza</createdBy>
+<createdTime>2021-05-26 11:49:58 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="BD66DD48-3FB3-8215-C631-5BBC033604D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="category" id="AD908D34-4B4F-9E36-1CA1-A293A8A83857">
+<createdBy>hamza</createdBy>
+<createdTime>2021-05-26 11:50:57 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="BD66DD48-3FB3-8215-C631-5BBC033604D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock" id="8BD29DF5-20B6-7C0B-F0F6-37C418CE9103">
+<createdBy>hamza</createdBy>
+<createdTime>2021-05-26 11:51:25 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="BD66DD48-3FB3-8215-C631-5BBC033604D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="expiry" id="56667EBB-904B-1536-DBE3-991AB7C359BC">
+<createdBy>hamza</createdBy>
+<createdTime>2021-05-26 11:51:48 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="BD66DD48-3FB3-8215-C631-5BBC033604D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="img" id="58F5E272-ED6D-DD7E-9509-5EED0A146DDC">
+<createdBy>hamza</createdBy>
+<createdTime>2021-05-26 16:11:06 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<engineerTo>
+<item key="BD66DD48-3FB3-8215-C631-5BBC033604D7" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

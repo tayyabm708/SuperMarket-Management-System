@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Semester Project:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Semester_Project_jar</output-path>
+    <root id="archive" name="Semester Project.jar">
+      <element id="module-output" name="Semester Project" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mongo-java-driver-3.12.13.jar" path-in-jar="/" />
+      <element id="library" level="project" name="Semester Project" />
+    </root>
+  </artifact>
+</component>

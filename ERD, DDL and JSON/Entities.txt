@@ -1,0 +1,11 @@
+admin
+prdouct 
+bakery item
+snack
+beverage
+fruit
+customer 
+customer query
+employee
+employee query
+orders

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="92389DA7-177C-29FC-7ABF-5E8F482661A6" name="Employee_Query">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>DFE2CA2F-A983-2860-5752-10CDA0A600B5</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="msg" id="316B9579-FEA7-5804-0DC1-C69386059B11">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>0ABE629F-A5E4-685C-F02C-BA1AAE067F26</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1000 CHAR</dataTypeSize>
+<ownDataTypeParameters>1000 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="query_id" id="7D5CC213-995F-3E51-0222-83521E5A5CC9">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>5C0A9765-4BF0-4E2F-718E-36EDDA3116A1</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Employee_username" id="970973C8-5374-4917-34FF-54AF41FB61F6">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>D54C81AA-E617-13D1-62D9-7CEE19CE4D15</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="547610CD-62BE-1597-C3B2-60A6762EA676" referredColumn="E9F5885E-EE2E-0D41-6736-D07364DFDD73"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B17ECD0C-8067-DCBA-D1CE-757CFFF1E8DE" name="Employee_Query_PK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>C5DC36D3-C534-4EBE-28FE-9CE1604D3A80</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D5CC213-995F-3E51-0222-83521E5A5CC9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="798C3184-EC10-E801-4B62-2AA825603085" name="Employee_Query_Employee_FK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>A3E1CBBB-36C4-3F98-E646-74BD1FCFFC58</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="970973C8-5374-4917-34FF-54AF41FB61F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

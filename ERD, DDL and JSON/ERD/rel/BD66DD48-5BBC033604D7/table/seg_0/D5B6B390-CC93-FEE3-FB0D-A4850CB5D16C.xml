@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D5B6B390-CC93-FEE3-FB0D-A4850CB5D16C" name="Contains">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Orders_order_id" id="1E1FD306-264D-BDB3-18E8-32116E0F31B1">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F8F7EB5F-5058-90FB-D0C3-D18D092DB7DE" referredColumn="D32D01BE-940D-0404-1224-924491A25437"/>
+</associations>
+</Column>
+<Column name="Product_Product_id" id="0FBFA523-66F6-1469-E44A-0FD892C9A604">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B36E673C-7163-B06B-B82B-1C0A6D27C71A" referredColumn="36F45406-3911-B3B2-30AE-61D53A68210B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E03FC16F-0380-36F4-6E51-459758DD4A6E" name="Contains_PK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<ownerDesignName>ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E1FD306-264D-BDB3-18E8-32116E0F31B1"/>
+<colUsage columnID="0FBFA523-66F6-1469-E44A-0FD892C9A604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A27D2DE-A6FA-A31C-1D8A-843BA2C026D5" name="Contains_Orders_FK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>CA78C27F-510F-08EA-8FE5-42E18CED6F68</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E1FD306-264D-BDB3-18E8-32116E0F31B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04A69B35-4835-3985-AE05-37A1F3BD9610" name="Contains_Product_FK">
+<createdBy>hamza</createdBy>
+<createdTime>2021-06-25 10:59:52 UTC</createdTime>
+<generatorID>CA78C27F-510F-08EA-8FE5-42E18CED6F68</generatorID>
+<ownerDesignName>ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0FBFA523-66F6-1469-E44A-0FD892C9A604"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

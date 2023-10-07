@@ -1,0 +1,228 @@
+[{
+  "_id": {
+    "$oid": "647ae642743803d058cafe88"
+  },
+  "PRODUCT_ID": "cc",
+  "NAME": "Cocomo",
+  "PRICE": 10,
+  "CATEGORY": "Snacks",
+  "STOCK": 81,
+  "EXPIRY": "01-JAN-23",
+  "IMG": "Images\\Cocomo.png"
+},
+{
+  "_id": {
+    "$oid": "647ae642743803d058cafe89"
+  },
+  "PRODUCT_ID": "bb",
+  "NAME": "Bunties",
+  "PRICE": 6,
+  "CATEGORY": "Snacks",
+  "STOCK": 68,
+  "EXPIRY": "02-APR-21",
+  "IMG": "Images\\bunty.png"
+},
+{
+  "_id": {
+    "$oid": "647ae642743803d058cafe8a"
+  },
+  "PRODUCT_ID": "pp",
+  "NAME": "Pringles",
+  "PRICE": 130,
+  "CATEGORY": "Snacks",
+  "STOCK": 59,
+  "EXPIRY": "16-MAY-25",
+  "IMG": "Images\\pringles.png"
+},
+{
+  "_id": {
+    "$oid": "647ae69a743803d058cafe8c"
+  },
+  "PRODUCT_ID": "choco",
+  "NAME": "Dairy Milk",
+  "PRICE": 20,
+  "CATEGORY": "Snacks",
+  "STOCK": 59,
+  "EXPIRY": "03-OCT-23",
+  "IMG": "Images\\dairymilk.png"
+},
+{
+  "_id": {
+    "$oid": "647ae69a743803d058cafe8d"
+  },
+  "PRODUCT_ID": "dor",
+  "NAME": "Doritos",
+  "PRICE": 40,
+  "CATEGORY": "Snacks",
+  "STOCK": 160,
+  "EXPIRY": "07-DEC-25",
+  "IMG": "Images\\doritos.png"
+},
+{
+  "_id": {
+    "$oid": "647ae69a743803d058cafe8e"
+  },
+  "PRODUCT_ID": "ll",
+  "NAME": "Lays",
+  "PRICE": 30,
+  "CATEGORY": "Snacks",
+  "STOCK": 197,
+  "EXPIRY": "23-MAR-23",
+  "IMG": "Images\\lays.png"
+},
+{
+  "_id": {
+    "$oid": "647ae6bc743803d058cafe94"
+  },
+  "PRODUCT_ID": "ww",
+  "NAME": " Nestle Water 250mg",
+  "PRICE": 60,
+  "CATEGORY": "Beverages",
+  "STOCK": 45,
+  "EXPIRY": "07-DEC-25",
+  "IMG": "Images\\water.png"
+},
+{
+  "_id": {
+    "$oid": "647ae6bc743803d058cafe95"
+  },
+  "PRODUCT_ID": "jj",
+  "NAME": "Nestle Juice",
+  "PRICE": 90,
+  "CATEGORY": "Beverages",
+  "STOCK": 80,
+  "EXPIRY": "23-MAR-23",
+  "IMG": "Images\\juice.png"
+},
+{
+  "_id": {
+    "$oid": "647ae6bc743803d058cafe96"
+  },
+  "PRODUCT_ID": "ss",
+  "NAME": "Sprite 500mg",
+  "PRICE": 55,
+  "CATEGORY": "Beverages",
+  "STOCK": 18,
+  "EXPIRY": "16-MAY-25",
+  "IMG": "Images\\sprite.png"
+},
+{
+  "_id": {
+    "$oid": "647ae6e0743803d058cafe98"
+  },
+  "PRODUCT_ID": "aa",
+  "NAME": "Apple",
+  "PRICE": 40,
+  "CATEGORY": "Fruits & Vegetables",
+  "STOCK": 78,
+  "EXPIRY": "03-AUG-21",
+  "IMG": "Images\\apple.png"
+},
+{
+  "_id": {
+    "$oid": "647ae6e0743803d058cafe99"
+  },
+  "PRODUCT_ID": "cap",
+  "NAME": "Capsicum",
+  "PRICE": 15,
+  "CATEGORY": "Fruits & Vegetables",
+  "STOCK": 120,
+  "EXPIRY": "03-SEP-21",
+  "IMG": "Images\\capsi.png"
+},
+{
+  "_id": {
+    "$oid": "647ae6e0743803d058cafe9a"
+  },
+  "PRODUCT_ID": "let",
+  "NAME": "Lettuce",
+  "PRICE": 20,
+  "CATEGORY": "Fruits & Vegetables",
+  "STOCK": 79,
+  "EXPIRY": "09-AUG-24",
+  "IMG": "Images\\lettuce.png"
+},
+{
+  "_id": {
+    "$oid": "647ae6e0743803d058cafe9b"
+  },
+  "PRODUCT_ID": "mm",
+  "NAME": "Mango",
+  "PRICE": 50,
+  "CATEGORY": "Fruits & Vegetables",
+  "STOCK": 512,
+  "EXPIRY": "03-OCT-23",
+  "IMG": "Images\\mango.png"
+},
+{
+  "_id": {
+    "$oid": "647ae6e0743803d058cafe9c"
+  },
+  "PRODUCT_ID": "Oo",
+  "NAME": "Orange",
+  "PRICE": 25,
+  "CATEGORY": "Fruits & Vegetables",
+  "STOCK": 40,
+  "EXPIRY": "06-DEC-22",
+  "IMG": "Images\\orange.png"
+},
+{
+  "_id": {
+    "$oid": "647ae70a743803d058cafe9e"
+  },
+  "PRODUCT_ID": "ee",
+  "NAME": "One Dozen Eggs",
+  "PRICE": 200,
+  "CATEGORY": "Bakery Items",
+  "STOCK": 20,
+  "EXPIRY": "03-OCT-23",
+  "IMG": "Images\\egg.png"
+},
+{
+  "_id": {
+    "$oid": "647ae70a743803d058cafe9f"
+  },
+  "PRODUCT_ID": "rr",
+  "NAME": "Rusk",
+  "PRICE": 70,
+  "CATEGORY": "Bakery Items",
+  "STOCK": 40,
+  "EXPIRY": "07-DEC-25",
+  "IMG": "Images\\rusk.png"
+},
+{
+  "_id": {
+    "$oid": "647ae70a743803d058cafea0"
+  },
+  "PRODUCT_ID": "cook",
+  "NAME": "Cookie",
+  "PRICE": 20,
+  "CATEGORY": "Bakery Items",
+  "STOCK": 80,
+  "EXPIRY": "23-MAR-23",
+  "IMG": "Images\\Cookie.png"
+},
+{
+  "_id": {
+    "$oid": "647af15edd4ed8107bfb6f4f"
+  },
+  "PRODUCT_ID": "chups",
+  "NAME": "Chupa Chups",
+  "PRICE": 50,
+  "CATEGORY": "Snacks",
+  "STOCK": 74,
+  "EXPIRY": "2026-6-11",
+  "IMG": "Images\\default.png"
+},
+{
+  "_id": {
+    "$oid": "647b0d65743803d058cafea9"
+  },
+  "PRODUCT_ID": "kala",
+  "NAME": "Coke Can",
+  "PRICE": 35,
+  "CATEGORY": "Beverages",
+  "STOCK": 48,
+  "EXPIRY": "03-OCT-23",
+  "IMG": "Images\\Coke.png"
+}]
